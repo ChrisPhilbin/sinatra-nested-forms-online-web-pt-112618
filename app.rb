@@ -12,7 +12,7 @@ module FormsLab
     end
     
     get '/pirates' do
-      erb :show
+      erb :'pirates/show'
     end
 
   end
